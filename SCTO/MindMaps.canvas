@@ -1,0 +1,18 @@
+{
+	"nodes":[
+		{"id":"ba684d2e439cb51f","type":"text","text":"How to read a paper?\n","x":-980,"y":-280,"width":250,"height":60},
+		{"id":"31fe5bc3cbccc78f","type":"file","file":"__Media/spathoulas2020.pdf","x":-600,"y":-430,"width":360,"height":300,"color":"4"},
+		{"id":"e0aea1ee53494ceb","type":"text","text":"Rate this paper.","x":-855,"y":-122,"width":160,"height":70,"color":"3"},
+		{"id":"8f60d39ab35557f4","type":"file","file":"__Media/30756.jpg","x":-950,"y":-146,"width":95,"height":118},
+		{"id":"35d75629946d22d6","type":"file","file":"Primary Sources/Adlina.md","x":-220,"y":-250,"width":390,"height":345},
+		{"id":"6a96a8833f89232e","x":-950,"y":120,"width":600,"height":380,"type":"text","text":"<iframe width=\"560\" height=\"315\" src=\"https://www.youtube.com/embed/DsonSEllPmU?si=8BIQmyGe54Py-hWk\" title=\"YouTube video player\" frameborder=\"0\" allow=\"accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share\" allowfullscreen></iframe>"},
+		{"id":"2e367b9dd5adf945","x":-300,"y":240,"width":420,"height":240,"type":"text","text":"```mermaid\ntimeline\n    title History of Social Media Platform\n    2002 : LinkedIn\n    2004 : Facebook\n         : Google\n    2005 : Youtube\n    2006 : Twitter\n```"}
+	],
+	"edges":[
+		{"id":"bce3145c6f65d613","fromNode":"ba684d2e439cb51f","fromSide":"right","toNode":"31fe5bc3cbccc78f","toSide":"left"},
+		{"id":"8002f5318985d49e","fromNode":"31fe5bc3cbccc78f","fromSide":"bottom","toNode":"e0aea1ee53494ceb","toSide":"right"},
+		{"id":"605a1f77bb0c8264","fromNode":"31fe5bc3cbccc78f","fromSide":"right","toNode":"35d75629946d22d6","toSide":"top"},
+		{"id":"ff5027413395e3d2","fromNode":"31fe5bc3cbccc78f","fromSide":"bottom","toNode":"6a96a8833f89232e","toSide":"top"},
+		{"id":"dbe6b26e3b170b66","fromNode":"35d75629946d22d6","fromSide":"bottom","toNode":"2e367b9dd5adf945","toSide":"top"}
+	]
+}
